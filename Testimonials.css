@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "ponnins";
+}
+.box{
+    margin: 50px;
+    width: 310px;
+    height: 500px;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+.sore{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.name{
+    width: 120px;
+    height: 120px;
+    
+}
+.name img{
+    width: 100%;
+    height: 100%;
+    margin: 20px;
+    border-radius: 50%;
+}
+
+.for{
+    margin: 25px 0px 0px 15px;
+}
+.evry{
+    margin: 10px 0px 0px 8px;
+}
+
+.star{
+    margin-left: 12px;
+}
+.star span i{
+    color:  yellow;
+
+}
+
+.more{
+    padding: 20px;
+    line-height: 26px;
+    position: relative;
+
+}
+
+.more p{
+    font-size: 15px;
+    width: 250px;
+}
+ .more p::before{
+    content: '"';
+    color: aquamarine;
+    font-size: 50px;
+    position: relative;
+    top: 20px;
+    
+} 
+
+.more p::selection{
+    content: '"';
+    color:white;
+    background-color: palevioletred;
+    font-size: 50px;
+    position: relative;
+    top: 20px;
+    
+}
+.more p::first-line{
+   
+    color:red;
+    
+    position: relative;
+    top: 20px;
+    
+}
+
+
+.more p::after{
+    content: '"';
+    color: aquamarine;
+    font-size: 40px;
+    position: relative;
+
+    left: 5px;
+    top: 30px;  
+
+}
